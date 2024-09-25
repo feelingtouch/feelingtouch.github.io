@@ -6,11 +6,11 @@
 <h2>的iFrame -目标 为 一链接</h2>  
 <iframe height= "300px"  width= "100%"  src= "new.html"  name= "iframe_a" ></iframe>  
 
-
 # 可以在 frameborder 属性中设置是否显示边框。例如：
 <iframe src="http://www.baidu.com" width="500" height="300" frameborder="0"></iframe>
 
-<iframe src="Bar/barbar.html" width="500" height="300" frameborder="0">
+# 示例不要改动 +++++++++++++++++++++++++++++
+<iframe src="Bar/barbar.html" width="600" height="300" frameborder="0">
     <!DOCTYPE html>
     <html>
     <head>
@@ -235,9 +235,245 @@
         </script>
     </body>
     </html>
-
 </iframe>
 
+
+
+
+
+
+
+
+    
+# 示例不要改动 22222222222222222222222222222 +++++++++++++++++++++++++++++
+<iframe src="bar.html" width="1200" height="300" frameborder="0">
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Awesome-pyecharts</title>
+                    <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+    </head>
+    <body >
+        <div id="612c4387e42d4c3da6497fd95c5f60c7" class="chart-container" style="width:900px; height:500px; "></div>
+        <script>
+            var chart_612c4387e42d4c3da6497fd95c5f60c7 = echarts.init(
+                document.getElementById('612c4387e42d4c3da6497fd95c5f60c7'), 'light', {renderer: 'canvas'});
+            var option_612c4387e42d4c3da6497fd95c5f60c7 = {
+        "animation": true,
+        "animationThreshold": 2000,
+        "animationDuration": 1000,
+        "animationEasing": "cubicOut",
+        "animationDelay": 0,
+        "animationDurationUpdate": 300,
+        "animationEasingUpdate": "cubicOut",
+        "animationDelayUpdate": 0,
+        "aria": {
+            "enabled": false
+        },
+        "series": [
+            {
+                "type": "bar",
+                "name": "product1",
+                "legendHoverLink": true,
+                "data": [
+                    {
+                        "value": 12,
+                        "percent": 0.8
+                    },
+                    {
+                        "value": 23,
+                        "percent": 0.5227272727272727
+                    },
+                    {
+                        "value": 33,
+                        "percent": 0.868421052631579
+                    },
+                    {
+                        "value": 3,
+                        "percent": 0.05454545454545454
+                    },
+                    {
+                        "value": 33,
+                        "percent": 0.4342105263157895
+                    }
+                ],
+                "realtimeSort": false,
+                "showBackground": false,
+                "stack": "stack1",
+                "stackStrategy": "samesign",
+                "cursor": "pointer",
+                "barMinHeight": 0,
+                "barCategoryGap": "50%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": true,
+                    "position": "right",
+                    "margin": 8,
+                    "formatter": function(x){return Number(x.data.percent * 100).toFixed() + '%';}
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            },
+            {
+                "type": "bar",
+                "name": "product2",
+                "legendHoverLink": true,
+                "data": [
+                    {
+                        "value": 3,
+                        "percent": 0.2
+                    },
+                    {
+                        "value": 21,
+                        "percent": 0.4772727272727273
+                    },
+                    {
+                        "value": 5,
+                        "percent": 0.13157894736842105
+                    },
+                    {
+                        "value": 52,
+                        "percent": 0.9454545454545454
+                    },
+                    {
+                        "value": 43,
+                        "percent": 0.5657894736842105
+                    }
+                ],
+                "realtimeSort": false,
+                "showBackground": false,
+                "stack": "stack1",
+                "stackStrategy": "samesign",
+                "cursor": "pointer",
+                "barMinHeight": 0,
+                "barCategoryGap": "50%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": true,
+                    "position": "right",
+                    "margin": 8,
+                    "formatter": function(x){return Number(x.data.percent * 100).toFixed() + '%';}
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "legend": [
+            {
+                "data": [
+                    "product1",
+                    "product2"
+                ],
+                "selected": {}
+            }
+        ],
+        "tooltip": {
+            "show": true,
+            "trigger": "item",
+            "triggerOn": "mousemove|click",
+            "axisPointer": {
+                "type": "line"
+            },
+            "showContent": true,
+            "alwaysShowContent": false,
+            "showDelay": 0,
+            "hideDelay": 100,
+            "enterable": false,
+            "confine": false,
+            "appendToBody": false,
+            "transitionDuration": 0.4,
+            "textStyle": {
+                "fontSize": 14
+            },
+            "borderWidth": 0,
+            "padding": 5,
+            "order": "seriesAsc"
+        },
+        "xAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": true,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                },
+                "data": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            }
+        ],
+        "yAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": true,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                }
+            }
+        ]
+    };
+            chart_612c4387e42d4c3da6497fd95c5f60c7.setOption(option_612c4387e42d4c3da6497fd95c5f60c7);
+        </script>
+    </body>
+    </html>
+</iframe>
+
+  
 <p> <a href= "https://www.rocschool.com";  target= "iframe_a"> rocschool.com </a> </p>  
 
 <p> iframe 和链接目标的名称必须具有相同的值， 否则 链接将不会作为框架打开。</p>  
